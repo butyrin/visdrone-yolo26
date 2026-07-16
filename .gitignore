@@ -1,0 +1,18 @@
+# Python virtual environments and local configuration files
+.venv/
+.pyenv/
+.python-version
+visdrone-env/
+
+# Heavy local deep learning datasets and cache binaries
+data/datasets/
+*.cache
+*.zip
+*.pt
+
+# Training outputs, telemetry checkpoints, and metrics data
+runs/
+
+# System specific caches and temporary compiler files
+.DS_Store
+__pycache__/

@@ -1,0 +1,6 @@
+# Core YOLO framework — automatically installs numpy, opencv, pillow, matplotlib, etc.
+ultralytics==8.4.96
+
+# PyTorch stack — pinned explicitly for Apple Silicon MPS compatibility
+torch==2.13.0
+torchvision==0.28.0
